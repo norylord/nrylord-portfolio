@@ -11,9 +11,9 @@ const ProjectCard = ({img, logoIcon, title, details, projectInfo, github, icons,
                 {img ? <img src={img} alt="projectLogo"/> : logoIcon}
             </div>
             <div className={classes.projectCard__details}>
-                <h1>{closed ? <FcOk size={60}/> : <FcServices size={60}/>} {projectLink ?
+                <h1>{projectLink ?
                     <a href={projectLink}>{title}</a> : title} </h1>
-                <h3>{details}</h3>
+                <h3>{details} {closed ? <FcOk/> : <FcServices/>} </h3>
                 <h4>{projectInfo}</h4>
                 <div className={classes.projectCard__details__icons}>
                     <a href={github}><AiFillGithub size={60} color={'#5051f9'}/></a>
