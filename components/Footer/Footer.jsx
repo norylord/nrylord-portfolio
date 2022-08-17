@@ -4,7 +4,9 @@ import styles from './Footer.module.sass'
 const Footer = () => {
     return (
         <div className={styles.footer}>
-            @Norylord
+            <h3 style={{fontWeight: 300}}>
+                @Norylord
+            </h3>
         </div>
     );
 };
