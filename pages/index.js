@@ -36,28 +36,25 @@ export default function Home() {
                     <div className={styles.card}>
                         <FcGraduationCap size={100}/>
                         <h2>Еще студент, но в душе готов работать</h2>
-                        <p className={styles.card__info}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                            adipisci autem consectetur delectus dolor doloremque eos impedit incidunt maxime, molestias
-                            nam
-                            nostrum nulla obcaecati reiciendis reprehenderit sequi, similique temporibus voluptas! </p>
+                        <p className={styles.card__info}>В данный момент я учусь на 4 курсе по направлению "Информатика
+                            и вычислительная техника". Уже почти год я так же уделяю время изучению различных
+                            фреймворков, методологий и принципов разработки. </p>
                     </div>
                     <div className={styles.card}>
                         <FcReading size={100}/>
                         <h2>Всегда в поиске новой информации</h2>
                         <p className={styles.card__info}>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                            adipisci autem consectetur delectus dolor doloremque eos impedit incidunt maxime, molestias
-                            nam
-                            nostrum nulla obcaecati reiciendis reprehenderit sequi, similique temporibus voluptas!
+                            Мир постоянно меняется, и было бы странно отставать от него. Новые фреймворки, методологии,
+                            принципы, подходы - все находится в постоянной динамике. Именно поэтому я постоянно слежу за
+                            новыми изменениями и стараюсь постоянно совершенствоваться.
                         </p>
                     </div>
                     <div className={styles.card}><FcTodoList size={100}/>
                         <h2>Любопытство - мое топливо</h2>
                         <p className={styles.card__info}>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                            adipisci autem consectetur delectus dolor doloremque eos impedit incidunt maxime, molestias
-                            nam
-                            nostrum nulla obcaecati reiciendis reprehenderit sequi, similique temporibus voluptas!
+                            Я пришел в мир Фронтенд-разработки, увидев, как мой знакомый создавал проекты с помощью
+                            React.js. В тот момент я сильно загорелся этим, и с тех пор начал постоянно изучать что-то
+                            новое, смотрел, как подходят к работе другие, и всему причиной - мое любопытство :).
                         </p></div>
                 </div>
             </section>

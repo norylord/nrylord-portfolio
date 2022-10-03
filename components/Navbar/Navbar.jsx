@@ -8,9 +8,9 @@ const Navbar = () => {
         <div className={styles.navbar}>
             <Link href='/'><h3 className={styles.navbar__item}>Главная</h3></Link>
             <Link href='/projects'><h3 className={styles.navbar__item}>Проекты</h3></Link>
-            <a className={styles.navbar__item} href="https://github.com/nrylord"><h3
+            <a className={styles.navbar__item} target="_blank" href="https://github.com/nrylord"><h3
                 style={{fontWeight: 300}}>GitHub</h3></a>
-            <a className={styles.navbar__item} href="https://t.me/norylord"><h3
+            <a className={styles.navbar__item} target="_blank" href="https://t.me/norylord"><h3
                 style={{fontWeight: 300}}>Telegram</h3></a>
         </div>
     );
