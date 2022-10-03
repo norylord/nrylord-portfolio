@@ -5,12 +5,13 @@ import ProjectCard from "../components/ProjectCard/ProjectCard";
 
 import {CgDisplayFlex} from "react-icons/cg";
 import {MdStorage} from "react-icons/md";
-import {FaReact, FaMobile} from "react-icons/fa";
+import {FaReact, FaMobile, FaVuejs} from "react-icons/fa";
 import {FcSurvey, FcTemplate, FcSerialTasks, FcApproval} from "react-icons/fc";
 import {SiJavascript, SiNextdotjs} from "react-icons/si";
 import {AiFillApi} from "react-icons/ai";
 import {TbBrandReactNative} from "react-icons/tb";
 import {RiDragDropFill} from "react-icons/ri";
+import {GiCrossedSwords} from "react-icons/gi";
 import {IconContext} from "react-icons";
 
 const Projects = () => {
@@ -24,6 +25,33 @@ const Projects = () => {
                 <h2>Представленные проекты могут как находиться в разработке, так и находящиеся на стадии деплоя</h2>
             </div>
             <div className={styles.projects__container}>
+                <ProjectCard
+                    closed={false}
+                    logoIcon={<GiCrossedSwords size={250} color={'#63b8ff'}/>}
+                    title={'Raider IO API Vue.js'}
+                    projectLink={'https://nrylord.github.io/todo-list/'}
+                    github={'https://github.com/nrylord/todo-list'}
+                    details={'Проект для отслеживания статистики персонажа в World of Warcraft'}
+                    projectInfo={'Проект создается с помощью Vue.js, имеет адаптивную верстку, написана первая вертикальная навигационная адаптивная панель, а так же работа с асинхронными запросами. '}
+                    icons={[
+                        <FaVuejs key={1} size={60} color={'#73ef9f'}/>,
+                        <SiJavascript key={2} size={60} color={'#ffd500'}/>,
+                        <AiFillApi key={3} size={60} color={'#5051f9'}/>,
+                    ]}
+                />
+                <ProjectCard
+                    closed={true}
+                    img='https://m.media-amazon.com/images/M/MV5BZjRjOTFkOTktZWUzMi00YzMyLThkMmYtMjEwNmQyNzliYTNmXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_.jpg'
+                    title={'Rick and Morty API Vue.js'}
+                    github={'https://github.com/nrylord/rick-and-morty-vue'}
+                    details={'Первый проект, разработанный с помощью Vue.js'}
+                    projectInfo={'Проект реализован с помощью Vue.js, имеет адаптивную верстку, усовершенстованную навигационную панель, получение данных с Rick and Morty API. '}
+                    icons={[
+                        <FaVuejs key={1} size={60} color={'#73ef9f'}/>,
+                        <SiJavascript key={2} size={60} color={'#ffd500'}/>,
+                        <AiFillApi key={3} size={60} color={'#5051f9'}/>,
+                    ]}
+                />
                 <ProjectCard
                     closed={true}
                     img='https://m.media-amazon.com/images/M/MV5BZjRjOTFkOTktZWUzMi00YzMyLThkMmYtMjEwNmQyNzliYTNmXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_.jpg'
